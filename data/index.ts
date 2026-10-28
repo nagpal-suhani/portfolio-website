@@ -1,15 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "I build intelligent systems that turn complex data into actionable insights.",
+    description: "A LITTLE ABOUT ME",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Python, PyTorch, TensorFlow, FastAPI, Docker & more",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,8 +38,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "Exploring the intersection of Machine Learning, Generative AI and real-world engineering.",
+    description: "WHAT DRIVES ME",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Building Luna, an AI-powered women's health platform.",
+    description: "CURRENTLY WORKING ON",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,8 +59,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
+    title: "Let's build something impactful together.",
+    description: "LET'S CONNECT",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -72,24 +72,24 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Luna — AI-Powered Women's Health",
+    des: "Developing an AI health platform with LSTM cycle prediction, Random Forest phase classification, anomaly detection and a PubMed-grounded RAG assistant.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "GenAI Earth Resource Monitor",
+    des: "Fine-tuned SegFormer for satellite imagery segmentation with 94% accuracy, combined with LSTM forecasting and GenAI-powered environmental risk reporting.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Aircraft Predictive Maintenance",
+    des: "Built an aircraft component risk prediction system combining XGBoost and LSTM for 92% F1-score and an 18% reduction in false negatives.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
@@ -106,53 +106,39 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Amazon HackOn",
+    title: "Ranked among the Top 50 coders",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "HackWithMAIT",
+    title: "Secured 3rd place",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "SheBuilds",
+    title: "Top 10 teams — All India Women's Hackathon",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+
 ]; 
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Amazon HackOn",
+    description: "Ranked among the Top 50 coders",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "HackWithMAIT",
+    description: "Secured 3rd place",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "SheBuilds",
+    description: "Top 10 teams — All India Women's Hackathon",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
@@ -173,15 +159,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Data Science Trainee — AdtCoreX",
+    desc: "Building aircraft sensor data-cleaning pipelines, synthetic datasets and reliability-centered maintenance automation for aviation analytics.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Intern — Airports Authority of India",
+    desc: "Developed an XGBoost + LSTM predictive maintenance pipeline with 92% F1-score and 18% fewer false negatives.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
