@@ -2,6 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
+  { name: "Achievements", link: "#achievements" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -96,8 +97,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Project #4",
+    des: "whatisit",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -116,6 +117,22 @@ export const testimonials = [
   {
     name: "SheBuilds",
     title: "Top 10 teams — All India Women's Hackathon",
+  },
+
+]; 
+
+export const achievements = [
+  {
+    name: "Amazon HackOn",
+    description: "Ranked among the Top 50 coders",
+  },
+  {
+    name: "HackWithMAIT",
+    description: "Secured 3rd place",
+  },
+  {
+    name: "SheBuilds",
+    description: "Top 10 teams — All India Women's Hackathon",
   },
 
 ]; 
