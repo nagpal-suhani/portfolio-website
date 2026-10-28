@@ -135,7 +135,7 @@ export const testimonials = [
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
-];
+]; 
 
 export const companies = [
   {
